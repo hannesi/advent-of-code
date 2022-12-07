@@ -1,8 +1,8 @@
 namespace Year2022;
 
-public class Dayxx
+public class Day04
 {
-    public Dayxx(string input)
+    public Day04(string input)
     {
     }
 
@@ -19,10 +19,10 @@ public class Dayxx
 }
 
 
-public class DayxxTests
+public class Day04Tests
 {
-    private readonly Dayxx _example = new Dayxx(File.ReadAllText("Dayxx_example.txt"));
-    private readonly Dayxx _puzzle = new Dayxx(File.ReadAllText("Dayxx_input.txt"));
+    private readonly Day04 _example = new Day04(File.ReadAllText("Day04_example.txt"));
+    private readonly Day04 _puzzle = new Day04(File.ReadAllText("Day04_input.txt"));
     
     [Fact]
     public void SolvePartOneTest()
